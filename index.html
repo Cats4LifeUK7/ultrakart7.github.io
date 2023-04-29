@@ -2,115 +2,41 @@
 <html>
 <head>
     <title>Ultra Kart 7 Resort</title>
-    <style>
-        body {
-            background-image: url("website1.png");
-            background-size: cover;
-            background-attachment: fixed;
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        header {
-            background: linear-gradient(to bottom right, #0d81f7, #33b3ff);
-            color: #fff;
-            padding: 20px;
-        }
-
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background: linear-gradient(to bottom right, #0d81f7, #33b3ff);
-        }
-
-        nav li {
-            float: left;
-        }
-
-            nav li a {
-                display: block;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-            }
-
-        section {
-            padding: 20px;
-            margin: 20px;
-            background: linear-gradient(to bottom right, #0d81f7, #33b3ff);
-            color: #333;
-        }
-
-        footer {
-            background: linear-gradient(to bottom right, #0d81f7, #33b3ff);
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .red {
-            color: red;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        }
-
-        .green {
-            color: green;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        }
-
-        .yellow {
-            color: yellow;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        }
-
-        .rainbow {
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-            -webkit-text-stroke: 1px black;
-            color: transparent;
-            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-            -webkit-background-clip: text;
-            background-clip: text;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://rawcdn.githack.com/hung1001/font-awesome-pro-v6/44659d9/css/all.min.css"/>
+    <meta content="Ulra Kart 7 Resort" property="og:title">
+    <meta content="The Ultra Kart 7 website" property="og:description">
+    <meta content="https://cats4lifeuk7.github.io/ultrakart7.github.io" property="og:url">
+    <meta content="https://cats4lifeuk7.github.io/ultrakart7.github.io/assets/images/favicon.png" property="og:image">
+    <meta content="#E72ECA" data-react-helmet="true" name="theme-color">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
 </head>
 <body>
     <header>
         <h1>Welcome to the Ultra Kart 7 Resort!</h1>
-        <p>This is a site based off the popular pack Ultra Kart 7! Ultra Kart 7 is a modification of Mario Kart 7 that allows for new gameplay, custom tracks, and characters. Download will be available sometime this year!</p>
     </header>
     <nav>
         <ul>
-            <li><a href="index.html" class="red">Home.</a></p>
-            <li><a href="Soundtrack.html" class="green">Soundtrack.</a></p>
-            <li><a href="https://discord.gg/tXVSQSjspq" class="yellow">Discord</a></p>
-            <li><a href="Blog.html" class="rainbow">Weekly Updates</a></p>
+            <li><a href="" class="red">Home</a></p>
+            <li><a href="faq" class="blue">FAQ</a></li>
+            <li><a href="soundtrack" class="green">Soundtrack</a></p>
+            <li><a href="credits" class="yellow">Credits</a></p>
+            <li><a href="updates" class="rainbow">Weekly Updates</a></p>
         </ul>
     </nav>
     <section>
-        <h2>...</h2>
-        <p class="red">Questions asked usually:</p>
-        <p class="red">Q: Where can i download Ultra Kart 7?</p>
-        <p class="green">A: You can download the beta on <a href="https://gamebanana.com/mods/362204" class="green">gamebanana.</a></p>
-        <p class="red">Q: Where can i support the creators?</p>
-        <p class="green">A: <a href="https://ko-fi.com/cats4lifemkstuff" class="green">https://ko-fi.com/cats4lifemkstuff</a></p>
-        <p class="red">Q: Is there any way you can beta test Ultra Kart 7?</p>
-        <p class="green">A: no.</p>
-        <p class="red">Q: Will there be a custom launcher</p>
-        <p class="green">A: Yes, thanks to Straky and CyberYoshi64</p>
-        <p class="red">Q: How many custom tracks and characters will there
-        <p class="green">17 custom characters and 38 custom tracks</p>
-        <img src="cm.png" alt="Cat Mario">
-        </nav>
-        <section>
-            <h2>Download?</h2>
-            <p class="yellow">A: You can download the beta on <a href="https://gamebanana.com/mods/362204" class="yellow">gamebanana.</a></p>
-
-        </section>
-        <p>&copy; 2023 Ultra Kart 7 Resort. All rights reserved.</p>
-        <p>&copy; Credits: Cats4Life, Deloof, CoolNHot, BlackLuma, Straky, CyberYoshi64, Saiveeon, and all custom track and custom character creators.</p>
+        <center><img src="assets/images/logo.png" alt="Logo" class="logo"/></center>
+        <h2 class="title">What is Ultra Kart 7?</h2>
+        <p class="description">Ultra Kart 7 is a modification of Mario Kart 7 that allows for new gameplay,<br />
+            custom tracks and characters. Download will be available sometime this year!</p>
+        <h2 class="title">Download?</h2>
+        <p class="description" style="padding-bottom: 10px;">You can try out the mod by downloading it's beta!</p>
+        <a href="https://gamebanana.com/dl/759505" class="button byellow"><i class="fa-solid fa-download"></i> Download the beta</a>
+        <p class="description" style="padding-bottom: 10px;">You can also join the Disord to receive updated about the mod</p>
+        <a href="discord" target="_blank" class="button bblue"><i class="fa-brands fa-discord"></i> Join the Disord</a>
+    </section>
 </body>
+<footer>
+    <p>&copy; 2023 Ultra Kart 7 Resort. All rights reserved.</p>
+</footer>
 </html>
